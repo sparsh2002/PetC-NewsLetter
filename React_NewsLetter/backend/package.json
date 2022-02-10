@@ -1,0 +1,27 @@
+{
+  "name": "tutorial-react-newsletter-api",
+  "version": "1.0.0",
+  "description": "Backend project for the simple React newsletter written in Node.js and Restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spartan082189/tutorial-react-newsletter-api.git"
+  },
+  "author": "Michael Gillam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spartan082189/tutorial-react-newsletter-api/issues"
+  },
+  "homepage": "https://github.com/spartan082189/tutorial-react-newsletter-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^1.19.4",
+    "request": "^2.81.0",
+    "restify": "^5.2.0",
+    "restify-cors-middleware": "^1.0.1"
+  }
+}
