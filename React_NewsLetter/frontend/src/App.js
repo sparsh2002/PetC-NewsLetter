@@ -5,6 +5,17 @@ import NewsletterForm from './NewsletterForm';
 import Loading from './shared/Loading';
 import axios from 'axios';
 import { apiUrl, notify } from './helpers';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { faInstagram } from '@fortawesome/free-solid-svg-icons'
+// "@emotion/react": "^11.7.1",
+//     "@emotion/styled": "^11.6.0",
+//     "@fortawesome/fontawesome-svg-core": "^1.3.0-beta3",
+//     "@fortawesome/free-regular-svg-icons": "^6.0.0-beta3",
+//     "@fortawesome/free-solid-svg-icons": "^6.0.0-beta3",
+//     "@fortawesome/react-fontawesome": "^0.1.17",
+//     "@mui/icons-material": "^5.4.1",
+//     "@mui/material": "^5.4.1",
 
 
 //images import
@@ -94,10 +105,14 @@ class App extends Component {
               <p className='main-text'>PetC : Caring loved Ones!!!</p>
 
         <div className='newsletter-footer'>
-              Follow us on
-              <div>
-                  <a href='https://www.instagram.com/__petc__/'> Insta</a>  <a>Fb</a> <a>LinkedIn</a> <a>Twitter</a>
-              </div>
+              
+              {/* <div>
+                  <a href='https://www.instagram.com/__petc__/'> <FontAwesomeIcon icon="fa-brands fa-instagram" /></a>  
+                  <a>Fb</a> 
+                  <a>LinkedIn</a> 
+                  <a>Twitter</a>
+                  
+              </div> */}
         </div>
         </div>
         </div>
