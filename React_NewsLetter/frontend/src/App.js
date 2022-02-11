@@ -63,7 +63,7 @@ class App extends Component {
       <div className="App">
         <div className='main-container'>
         <div className='left-side'>
-          <img src={doodle} alt='doodle' />
+          <img src={doodle} alt='doodle' className='doodle' />
         </div>
 
         <div className='right-side'>
