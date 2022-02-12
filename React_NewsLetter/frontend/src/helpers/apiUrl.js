@@ -1,2 +1,2 @@
-const apiUrl = "http://localhost:8080";
+const apiUrl = "https://protected-atoll-91810.herokuapp.com/";
 export default apiUrl;

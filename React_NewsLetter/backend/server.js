@@ -35,7 +35,7 @@ function subscribe(req, res, next) {
 
 //Enable CORS Middleware
 var cors = corsMiddleware({
-  origins: ['http://localhost:3000']
+  origins: ['https://petc-newsletter.web.app/']
 });
 
 server.use(restify.plugins.bodyParser());
@@ -47,6 +47,8 @@ server.use(cors.actual);
 //Subscribe endpoint
 server.post('/subscribe', subscribe);
 
-server.listen(8080, function () {
+const PORT = process.env.PORT || 8080;
+
+server.listen(PORT, function () {
   console.log('%s listening at %s', server.name, server.url);
 });
